@@ -1,0 +1,11 @@
+import LinkedList
+list1 = LinkedList.Llist()
+list1.addLast(42)
+list1.addLast(25)
+list1.addLast(23)
+list1.addLast(47)
+list1.show()
+list1.addLast(["Pawan","kumar","Budati","Loves","Sister"])
+list1.remove("Sister")
+list1.show()
+print(list1.length)
